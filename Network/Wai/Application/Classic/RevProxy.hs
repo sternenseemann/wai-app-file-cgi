@@ -14,7 +14,7 @@ import Data.ByteString.Builder (Builder)
 import qualified Data.ByteString.Char8 as BS hiding (uncons)
 import Data.Conduit
 import qualified Network.HTTP.Client as H
-import Network.HTTP.Types
+import Network.HTTP.Types hiding (hTransferEncoding, hAcceptEncoding)
 import Network.Wai.Application.Classic.Conduit
 import Network.Wai.Application.Classic.EventSource
 import Network.Wai.Application.Classic.Field

@@ -12,7 +12,7 @@ import Data.Maybe
 import Data.StaticHash (StaticHash)
 import qualified Data.StaticHash as SH
 import qualified Data.Text as T
-import Network.HTTP.Types
+import Network.HTTP.Types hiding (hVia)
 import Network.Mime (defaultMimeMap, defaultMimeType, MimeType)
 import Network.SockAddr
 import Network.Wai
